@@ -11,7 +11,7 @@ static const char *TAG = "MOTOR_CONTROL";
 #define MOTOR_GPIO_PIN GPIO_NUM_9
 #define LED_GPIO_PIN GPIO_NUM_10
 
-#define TIME_ON (5ULL * 1000000ULL) // 15 microseconds 
+#define TIME_ON (15ULL * 1000000ULL) // 15 microseconds 
 #define TIME_OFF (45ULL * 1000000ULL) // 45 microseconds
 
 typedef enum {
